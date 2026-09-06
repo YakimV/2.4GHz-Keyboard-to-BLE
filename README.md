@@ -18,4 +18,4 @@ Next up: finishing the complete `keyMap` for all special keys, adding a Li-Po/Li
 
 
 
-<img width="733" height="912" alt="image" src="https://github.com/user-attachments/assets/63d79b6a-dbb8-4103-af9a-bccce2768d6a" />
+<img width="333" height="412" alt="image" src="https://github.com/user-attachments/assets/63d79b6a-dbb8-4103-af9a-bccce2768d6a" />
