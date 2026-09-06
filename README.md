@@ -18,4 +18,6 @@ Next up: finishing the complete `keyMap` for all special keys, adding a Li-Po/Li
 
 
 
+### Right now it looks terrible, but it works and definitely has a right to exist.
+
 <img width="333" height="412" alt="image" src="https://github.com/user-attachments/assets/63d79b6a-dbb8-4103-af9a-bccce2768d6a" />
