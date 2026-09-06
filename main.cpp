@@ -3,15 +3,15 @@
 
 BleKeyboard bleKeyboard("CustomKB", "keyboard", 100);
 
-// --- Matrix pins ---
-const int ROW_DATA = 14;        // DS of 74HC595
-const int ROW_CLOCK = 12;       // SH_CP of 74HC595
-const int ROW_LATCH = 13;       // ST_CP of 74HC595
-const int ROW_17_DIRECT = 33;   // 17th row, directly controlled
+// --- MATRIX PINS FOR ESP32-C3 SUPERMINI ---
+const int ROW_DATA = 0;   // DS for 595
+const int ROW_CLOCK = 1;  // SH_CP for 595
+const int ROW_LATCH = 2;  // ST_CP for 595
+const int ROW_17_DIRECT = 6; // 17th row direct
 
-const int COL_LOAD = 15;        // PL of 74HC165
-const int COL_CLOCK = 16;       // CP of 74HC165
-const int COL_DATA = 17;        // Q7 of 74HC165
+const int COL_LOAD = 3;   // PL for 165
+const int COL_CLOCK = 4;  // CP for 165
+const int COL_DATA = 5;   // Q7 for 165
 
 // 17 rows × 8 columns
 char keyMap[17][8] = {
