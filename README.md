@@ -12,9 +12,11 @@ Naturally, the compact **ESP32-C3 Supermini** doesn't have enough GPIOs to handl
 * **Direct Pin:** the 17th row is connected straight to a single spare GPIO on the microcontroller.
 
 ### How It Works
-The controller sequentially drives each row LOW using the 595 registers and reads the column states through the 165. The state of the entire matrix is tracked in a local array, ensuring reliable key press and release events without ghosting or repeating artifacts. The inputs are then transmitted to a PC or phone using the standard **Bluetooth HID** stack.
 
-Next up: finishing the complete `keyMap` for all special keys, adding a Li-Po/Li-Ion battery with a charging module, and fitting everything neatly back into the original enclosure for a fully autonomous wireless setup.
+The controller sequentially drives each row LOW using the 595 registers and reads the column states through the 165. The state of the entire matrix is tracked in a local array, ensuring reliable key press and release events without repeating artifacts. The inputs are then transmitted to a PC or phone using the standard **Bluetooth HID** stack.
+
+This is currently a **rough prototype rather than a finished product**, but the core concept works and the project definitely has the right to exist. Next up: finishing the complete `keyMap` for all special keys, adding a Li-Po/Li-Ion battery with a charging module, and fitting everything neatly back into the original enclosure for a fully autonomous wireless setup.
+
 
 
 
