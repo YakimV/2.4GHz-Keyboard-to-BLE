@@ -1,4 +1,3 @@
-```cpp
 #include <Arduino.h>
 #include <BleKeyboard.h>
 
@@ -128,4 +127,4 @@ void loop() {
 
   delay(10);
 }
-```
+
